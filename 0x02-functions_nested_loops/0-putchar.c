@@ -1,16 +1,17 @@
-#include <unistd.h>
-#include"main.h"
+#include "main.h"
 /**
- * main - Check description
- * Description: It prints the word _putchar, followed by a new line.
- * Return: 0.
- */
+* main - entry block
+* @void: no argument
+* Return: 0
+**/
 int main(void)
 {
-char word[9] = "_putchar";
-int i;
-for (i = 0; i < 9; i++)
-_putchar(word[i]);
+char ermias[] = "_putchar";
+int c;
+for (c = 0; c < 8; c++)
+{
+_putchar(ermias[c]);
+}
 _putchar('\n');
 return (0);
 }
